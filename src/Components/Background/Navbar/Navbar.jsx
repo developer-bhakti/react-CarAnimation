@@ -1,6 +1,6 @@
 import './Navbar.css'
 
-const navbar = () => {
+const Navbar = () => {
   return (
     <div className='nav'>
       <div className="nav-logo">EV-olution</div>

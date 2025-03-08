@@ -1,9 +1,11 @@
 import './Hero.css'
-import arrow_btn from '../../Assets/Arrow_btn.png'
-import play_icon from '../../Assets/play_icon.png'
-import pause_icon from '../../Assets/pause_icon.png'
+import arrow_btn from '../../../Assets/Arrow_btn.png'
+import play_icon from '../../../Assets/play_icon.png'
+import pause_icon from '../../../Assets/pause_icon.png'
 
 const Hero = ({heroData,setHeroCount,setPlayStatus,PlayStatus}) => {
+
+  let heroCount;
   return (
     <div className='hero'>
       <div className="hero-text">
